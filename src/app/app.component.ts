@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CocktailService } from './cocktail.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'queteServices';
+  title = 'quete n°10 sur Services';
+  constructor(cocktailService:CocktailService){
+
+  }
 }
